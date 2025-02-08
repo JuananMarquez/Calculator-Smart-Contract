@@ -24,11 +24,11 @@ The **Calculator Smart Contract** is a Solidity-based contract that allows users
 
 ## Features
 
-✔️ **Basic Arithmetic:** Addition, subtraction, multiplication, division, and modulus operations.
-✔️ **Input Validation:** Prevents division or modulus by zero with a custom modifier.
-✔️ **Event-Driven Logging:** Emits a `Result` event containing the computation output.
-✔️ **Dynamic Operation Selection:** Users can specify the operation as a string, improving contract usability.
-✔️ **Efficient & Modular Code:** Uses helper functions and best Solidity coding practices for maintainability.
+* ✔️ **Basic Arithmetic:** Addition, subtraction, multiplication, division, and modulus operations.
+* ✔️ **Input Validation:** Prevents division or modulus by zero with a custom modifier.
+* ✔️ **Event-Driven Logging:** Emits a `Result` event containing the computation output.
+* ✔️ **Dynamic Operation Selection:** Users can specify the operation as a string, improving contract usability.
+* ✔️ **Efficient & Modular Code:** Uses helper functions and best Solidity coding practices for maintainability.
 
 ## Contract Structure
 
@@ -150,10 +150,10 @@ calculator.calculateAndEmit("multiply", 7, 8);
 
 ## Security Considerations
 
-✔️ **Prevents division/modulus by zero** using a modifier.
-✔️ **Efficient string comparison** for dynamic operations.
-✔️ **Follows Solidity best practices** for gas efficiency and readability.
-❌ **Does not handle floating-point numbers** (Solidity does not support decimals natively).
+* ✔️ **Prevents division/modulus by zero** using a modifier.
+* ✔️ **Efficient string comparison** for dynamic operations.
+* ✔️ **Follows Solidity best practices** for gas efficiency and readability.
+* ❌ **Does not handle floating-point numbers** (Solidity does not support decimals natively).
 
 ## License
 
