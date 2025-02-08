@@ -1,0 +1,9 @@
+# Ignorar dependencias y archivos de compilación
+.deps/
+.states/
+artifacts/
+state.json
+compiler_config.json
+.prettierrc.json
+
+node_modules/
