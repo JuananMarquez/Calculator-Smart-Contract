@@ -1,9 +1,8 @@
-# Ignorar dependencias y archivos de compilación
+# Git ignore
 .deps/
 .states/
 artifacts/
 state.json
 compiler_config.json
 .prettierrc.json
-
 node_modules/
